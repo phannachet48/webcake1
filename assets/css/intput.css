@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Kanit';
+    src: url(/assets/font/Kanit-Regular.ttf);
+}
+body{
+    font-family: "Kanit",sans-serif;
+}
+.full-screen{
+    height: 100vh;
+}
+
+.hero{
+    background-image: url(/assets/img/chocolate-8782769_1280.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image-fit {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.image-fit {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.small-text {
+    font-size: 0.875rem;
+}
+.card {
+    max-width: 220px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.text-center {
+    text-align: center;
+}
